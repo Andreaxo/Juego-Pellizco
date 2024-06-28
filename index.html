@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="customPrompt" class="prompt-overlay">
+        <div class="prompt-box">
+            <p>¿Cuántos jugadores van a jugar? <br>
+                (1)
+                (2)
+                (3)
+            </p>
+            <input type="text" id="promptInput" class="prompt-input">
+            <div class="prompt-buttons">
+                <button onclick="submitPrompt()">Aceptar</button>
+                <button onclick="closePrompt()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        
+        <canvas id="main-canva" width="1280px" height="900px">
+            <div class="bolitas"></div>
+        </div> 
+    </canvas>
+    </div>
+    <div class="espacioJugadores" id="espacioJugadores"></div>
+
+ 
+
+    <script type="text/javaScript" src="/js/main.js"></script>
+
+</body>
+</html>
